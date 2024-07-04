@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="flex navvy">
+        <div class="icon-menu-wrap">
+          <img src="images/icon-menu.svg" alt="icon menu" class="icon-menu">
+        </div>
+        <a href="#">
+          <img src="images/logo.svg" alt="Logo" width="150px" class="logo">
+        </a>
+        <div class="mobile-bg">
+          
+          <ul class="menu">
+            <!-- -->
+            <li class="mobile-menu-close">
+              <img src="images/icon-close.svg" alt="" >
+            </li>
+            <li><a href="#" class="menu-list">Collection</a></li>
+            <li><a href="#" class="menu-list">Men</a></li>
+            <li><a href="#" class="menu-list">Women</a></li>
+            <li><a href="#" class="menu-list">About</a></li>
+            <li><a href="#" class="menu-list">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <ul class="checkout">
+        <li>
+          <img src="images/icon-cart.svg" alt="cart" width="100%" height="100%" style="object-fit: cover;" class="cart-icon">
+        </li>
+        <li class="avatar">
+          <img src="images/image-avatar.png" alt="avatar" width="100%">
+        </li>
+        <!-- --------------- -->
+        <div class="wrap-cart">
+          <div class="carty">
+            <p class="carting">Cart</p>
+            <div class="line"></div>
+            <div class="cart-content">
+              <p class="empty">Your cart is empty</p>
+            </div>
+          </div>
+        </div>
+        <!-- --------------- -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="inner">
+      <section class="inner_child left">
+        <div class="mobile-pro-box">
+          <img src="images/image-product-1.jpg" alt="product image" width="100%" min-height="100%" class="mobile-pro-img active">
+            <img src="images/image-product-2.jpg" alt="roduct image" width="100%" min-height="100%" class="mobile-pro-img">
+            <img src="images/image-product-3.jpg" alt="product image" width="100%" min-height="100%" class="mobile-pro-img">
+            <img src="images/image-product-4.jpg" alt="product image" width="100%" min-height="100%" class="mobile-pro-img">
+          <div class="direction-arrow">
+            <div class="arrow-pad pad-left">
+              <img src="images/icon-previous.svg" alt="">
+            </div>
+            <div class="arrow-pad pad-right">
+              <img src="images/icon-next.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="inner_child_child">
+          <div class="round pro-div">
+            <img src="images/image-product-1.jpg" alt="" width="100%" height="100%" class="round big-image">
+          </div>
+
+          <div class="flex thumbnail-div">
+            <div class="round">
+              <img src="images/image-product-1-thumbnail.jpg" alt="product" width="100%" height="100%" class="round thumbnail-image">
+            </div>
+            <div class="round">
+              <img src="images/image-product-2-thumbnail.jpg" alt="product" width="100%" height="100%" class="round thumbnail-image">
+            </div>
+            <div class="round">
+              <img src="images/image-product-3-thumbnail.jpg" alt="product" width="100%" height="100%" class="round thumbnail-image">
+            </div>
+            <div class="round">
+              <img src="images/image-product-4-thumbnail.jpg" alt="product" width="100%" height="100%" class="round thumbnail-image">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="inner_child right flex">
+        <div>
+          <p class="com">Sneaker Company</p>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p class="pg">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+          <div class="price_cover">
+            <div class="price_cover_container">
+              <h3 class="price">$125.00</h3>
+              <span class="per">50%</span>
+            </div>
+            <s class="former_price">$250</s>
+          </div>
+          
+          <div class="btns-cover">
+            <div class="amount">
+              <img src="images/icon-minus.svg" alt="minus" width="10px" class="minus">
+              <p class="quantity">1</p>
+              <img src="images/icon-plus.svg" alt="plus" width="10px" class="plus">
+            </div>
+            <div>
+              <button class="add_to_cart">
+                <img src="images/icon-cart.svg" alt="cart icon" width="15px" class="add-to-cart-btn">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
